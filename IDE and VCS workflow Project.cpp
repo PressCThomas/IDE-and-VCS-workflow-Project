@@ -1,18 +1,20 @@
 // IDE and VCS workflow Project.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// This program displays name address and phone number
 
 #include <iostream>
 using namespace std;
 int main()
 
 {
-    char first, middle, last;
-    // Storing initials
-    first = 'T';
-    middle = 'C';
-    last = 'P';
+    string name, address, phoneNumber;
+    // Storing information in varables
+    name = "Thomas Pressey";
+    address = "123 Main Avenue";
+    phoneNumber = "757-123-4567";
 
-    cout << first << middle << last << endl;
+    cout << name << endl;
+    cout << address << endl;
+    cout << phoneNumber << endl;
     return 0;
 }
 // Testing Commit
